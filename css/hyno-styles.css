@@ -1,0 +1,389 @@
+/* 
+    Document   : hyno-styles
+    Created on : 30-may-2013, 2:06:18
+    Author     : Antony
+    Description:
+        Purpose of the stylesheet follows.
+*/
+@import url('icons.css');
+root { 
+    display: block;
+}
+.hyno{
+    color: #333;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 1.4em;
+}
+.hyno .error{
+    padding: 15px !important;
+    margin: 5px 0 15px;
+    background-color: #ffebe8;
+    background-image: url(../img/error.png);
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    border-color: #c00;
+    padding: 0 .6em;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    outline: 0;
+    text-align: center;
+}
+
+
+#CFS_ContenFolder{
+    /*height: 300px;*/
+    width: 98%;
+    overflow: auto;
+    margin:auto;
+}
+
+#CFS_ContenFolder .flip-list-view {
+    min-width: 600px;
+    padding-left: 17px;
+    width: 98%;
+}
+#CFS_ContenFolder .CFS_Content{
+    /*height: 300px;*/
+    overflow: auto;
+}
+.flip-list-view .flip-list-header {
+    border-bottom: 1px solid #DDDDDD;
+    clear: both;
+    color: #999999;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 20px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.flip-list-title-header {
+    color: #DD4B39;
+    display: inline-block;
+    font-weight: bold;
+    padding-left: 30px;
+    width: 370px;
+}
+.flip-list-last-modified-header {
+    display: inline-block;
+    margin-left: 25px;
+}
+.flip-entries {
+    margin-bottom: 50px;
+}
+.flip-list-view .flip-entry {
+    border-bottom: 1px solid #DDDDDD;
+    clear: both;
+    margin-left: 15px;
+    margin-right: 20px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.flip-list-view .flip-entry-info {
+    display: inline-block;
+    width: 400px;
+}
+.flip-list-view .flip-entry-last-modified {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    margin-left: 25px;
+}
+.flip-list-view .flip-entry-info > div, .flip-list-view .flip-entry-last-modified > div {
+    display: inline-block;
+}
+.flip-list-view .flip-entry-list-icon {
+    cursor: pointer;
+}
+.drive-sprite-folder-list-shared-icon.icon-color-1 {
+    background: url("//ssl.gstatic.com/docs/doclist/images/folder_list_shared-42c0c113afece2f86061c72f1124556f.png") no-repeat scroll 0 0 / 16px 335px transparent;
+    height: 13px;
+    width: 16px;
+}
+
+.flip-list-view .flip-entry-title {
+    font-size: 13px;
+    margin-left: 15px;
+    max-width: 369px;
+}
+.flip-entry-title {
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.flip-entry-last-writer {
+    color: #777777;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.flip-header {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border-bottom: 1px solid #CCCCCC;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+}
+.flip-header-logo {
+    height: 70px;
+    line-height: 70px;
+    position: relative;
+    top: -10px;
+}
+.flip-header-logo a {
+    color: #63666A;
+    font-family: "open sans",arial,sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.flip-header-logo a:hover{
+    color: #63666A;
+}
+.flip-header-logo img {
+    vertical-align: middle;
+    box-shadow: none !important;
+}
+.flip-folder-item-count {
+    color: #777777;
+    display: inline-block;
+    font-size: 11px;
+    padding-left: 20px;
+}
+.drive-folder{
+    font-size: 50%;
+}
+
+/* DROPBOX */
+img.small{
+    box-shadow: none !important;
+    float: left;
+}
+div#folder-title {
+    float: left;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #3F3F3F;
+    line-height: 1.6em;
+    font-family: "Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;
+}
+.gallery-view-section {
+    padding: 10px !important;
+}
+#Hyno_ContenFolder #icon_folder{
+    
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 27px;
+}
+#Hyno_ContenFolder .header_1{
+    font-size: 16px;
+    font-weight: bold;
+}
+#Hyno_ContenFolder .iconos{
+    width: 100px;
+    padding: 0 0 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100%;
+    border:none;
+}
+.nav-header {
+    height: 30px;
+    /*position: fixed;*/
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #FFF;
+    z-index: 10;
+    border-bottom: 1px solid #AECEEF;
+    box-shadow: 0px 0px 4px #CCC;
+    vertical-align: middle;
+}
+div {
+    display: block;
+}
+body, input, textarea, select, button, .normal {
+    font-family: "Open Sans", "lucida grande", "Segoe UI", arial, verdana, "lucida sans unicode", tahoma, sans-serif;
+    font-size: 13px;
+    color: #444;
+    font-weight: normal;
+}
+#list-view-container {
+    margin: 13px 0;
+    padding-right: 16px;
+}
+.gallery-view-section {
+    background-color: #fff;
+    border: 1px solid #ccdbeb;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+#list-view-container #list-view-header {
+    color: #777;
+    margin: 4px 0 10px;
+}
+html[xmlns] .clearfix {
+    display: block;
+}
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.list-view-cols .filename-col {
+    width: 70%;
+}
+.list-view-cols div {
+    float: left;
+    display: block;
+}
+.list-view-cols .filesize-col {
+    width: 15%;
+}
+.list-view-cols .modified-col {
+    width: 15%;
+    float: left;
+}
+body.shmodel-body #page-content ol.browse-files {
+    -webkit-padding-start: 0px;
+    padding-left: 0;
+    margin-left: 0;
+}
+ol.browse-files {
+    padding: 0 0 9px;
+}
+.gallery-list-view {
+    margin: 0;
+}
+ol {
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+#list-view-container .browse-file:first-child {
+    padding-top: 7px;
+}
+#list-view-container .browse-files .browse-file {
+    border-width: 1px 0 0 0;
+}
+.gallery-list-view .browse-file {
+    text-align: left;
+    padding: 7px 0;
+    margin: 0 0px;
+    line-height: 32px;
+    color: #555;
+    border-width: 1px 0 0 0;
+}
+li.browse-file, li.browse-new-folder {
+    list-style: none;
+    position: relative;
+    border: 1px solid #edf1f5;
+    font-size: 13px;
+    zoom: 1;
+}
+li {
+    display: list-item;
+}
+.gallery-list-view .browse-file div {
+    display: block;
+    cursor: default;
+}
+.list-view-cols .filename-col {
+    width: 70%;
+}
+.list-view-cols div {
+    float: left;
+}
+a {
+    color: #1f8ce6;
+    text-decoration: none;
+}
+a, a * {
+    cursor: pointer;
+    outline: none;
+}
+.gallery-list-view .browse-file {
+    text-align: left;
+    line-height: 32px;
+}
+li.browse-file, li.browse-new-folder {
+    list-style: none;
+    font-size: 13px;
+}
+.gallery-list-view .browse-file div {
+    display: block;
+    cursor: default;
+}
+.list-view-cols div {
+    float: left;
+}
+.gallery-list-view .browse-file img.icon {
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    display: block;
+    overflow: hidden;
+    background-color: transparent;
+    vertical-align: bottom;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.s_web_page_white_cup_32 {
+    background-position: left -6487px;
+}
+.sprite_web {
+    background-image: url(../img/web_sprites-vfl0GXWGe.png);
+    background-repeat: no-repeat;
+    box-shadow: none !important;
+}
+.gallery-list-view .browse-file div {
+    display: block;
+    cursor: default;
+}
+.list-view-cols .filesize-col {
+    width: 15%;
+}
+.gallery-list-view .browse-file div {
+    display: block;
+    cursor: default;
+}
+.list-view-cols .modified-col {
+    width: 15%;
+    float: left;
+}
+
+
+
+.cloud-link{
+    background: url(../img/cloud-link.png);
+    height: 30px;
+    float: right;
+    background-repeat: no-repeat;
+    width: 30px;
+    padding-right: 15px;
+}
+.flip-header-logo .cloud-link{
+    margin-top: 20px;
+}
